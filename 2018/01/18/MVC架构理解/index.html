@@ -18,7 +18,7 @@
 </ul>
 <p>下面给出几个例子对这三个抽象概念进一步细化：</p>
 <h3 id="举例"><a href="#举例" class="headerlink" title="举例"></a>举例</h3><p>1.Model = HTML   &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;View = CSS&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Controller = Browser<br><br><img src="/images/HTML.png" align="left" /><br><img src="/images/CSS.png" align="middle" /><br><img src="/images/Browser.png" align="right" /></p>
-<p>2.微波炉：Model = 微波加热功能， View = 产品外观， Controller = 用户控制的两个旋钮<br></p>
+<p><br><br>2.微波炉：Model = 微波加热功能， View = 产品外观， Controller = 用户控制的两个旋钮<br></p>
 <p><style="text-align:center"><img src="/images/Micowave.jpg" alt=""></p>
 <h3 id="优势"><a href="#优势" class="headerlink" title="优势"></a>优势</h3><p>1、低耦合性：<br><br>视图层和业务层分离，这样就允许更改视图层代码而不用重新编译模型和控制器代码。同样，一个应用的业务流程或者业务规则的改变只需要改动MVC的模型层即可，因为模型与控制器和视图相分离，所以很容易改变应用程序的数据层和业务规则。<br><br>2、高重用性和可适用性: <br><br>MVC模式允许你使用各种不同样式的视图来访问同一个服务器端的代码。它包括任何WEB（HTTP）浏览器或者无线浏览器（wap），例如：例如，很多数据可能用HTML来表示，但是也有可能用WAP来表示，而这些表示所需要的仅令是改变视图层的实现方式，而控制层和模型层无需做任何改变。<br><br>3、较低的生命周期成本:<br><br>MVC使降低开发和维护用户接口的技术含量成为可能。<br><br>4、快速的部署<br><br>使用MVC模式使开发时间得到相当大的缩减，它使后端集中精力于业务逻辑，前端开发集中精力于表现形式上<br><br>5、可维护性<br><br>分离视图层和业务层也使得WEB应用更便于维护和修改<br><br>6、有利于软件工程化管理<br><br>由于不同的层各司其职，没一层不同的应用具有某些相同的特征，有利于通过工程化、工具化管理程序代码。</p>
 <h3 id="缺陷："><a href="#缺陷：" class="headerlink" title="缺陷："></a>缺陷：</h3><p>1.增加了系统复杂性: 特别对于简单的小型项目<br><br>2.效率较低: View对Model数据的低效率访问<br><br>3.版本升级开销大：因为三部分联系紧密，其中一部分更新，其余部分可能也需要更新配合。</p>
